@@ -1,0 +1,3 @@
+[submodule "external/deep-reinforcement-learning"]
+	path = external/deep-reinforcement-learning
+	url = https://github.com/udacity/deep-reinforcement-learning.git
