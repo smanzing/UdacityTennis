@@ -22,6 +22,7 @@ class OUNoise:
     def sample(self):
         """Update internal state and return it as a noise sample."""
         x = self.state
+        # originally, random.random() was used instead of random.gauss(0., 1.)
         dx = self.theta * (self.mu - x) + self.sigma * np.array([random.gauss(0., 1.) for i in range(len(x))])
         #dx = self.theta * (self.mu - x) + self.sigma * np.array([random.random() for i in range(len(x))])
         self.state = x + dx
