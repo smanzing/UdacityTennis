@@ -139,7 +139,7 @@ In particular, following parameter changes can be further investigated:
 
 As in [[2]](#2), we could introduce priorization of experiences. There may be some experiences that are more important,
 i.e., the agent can learn more from them, as other experiences. The priority $p_i$ of the $i$-th experience is the magnitude of the
-temporal difference error:
+temporal difference error $\delta_i$:
 
 $$p_i = |\delta_i|+ E,$$ 
 
