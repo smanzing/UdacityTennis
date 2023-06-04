@@ -170,12 +170,9 @@ class DDPGAgent:
         self.actor_optimizer.step()
 
     def _update_critic(self, own_batch: Batch, combined_batch: Batch):
-
-        # own_states, own_actions, own_rewards, own_next_states, own_dones = replay_buffers[self.agent_id].sample(batch_indices)
         # Get max predicted Q values (for next states) from target model
         q_targets_next = self.critic_network_target(combined_batch.next_states, combined_batch.actions_next_states)
         # Compute Q targets for current states
-        # q_targets = rewards + (self.gamma * q_targets_next * (1 - dones))
         q_targets = own_batch.rewards + (self.gamma * q_targets_next * (1 - own_batch.dones))
         # Get expected Q values from local model
         q_expected = self.critic_network_local(combined_batch.states, combined_batch.actions)

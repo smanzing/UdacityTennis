@@ -6,6 +6,11 @@ import numpy as np
 
 class MultiAgent:
     def __init__(self, num_agents: int, agents: List[DDPGAgent], replay_buffers: List[ReplayBuffer]):
+        """
+        @param num_agents number of agents in the environment
+        @param agents list of DDPGAgents
+        @param replay_buffers list of ReplayBuffer for each DDPGAgent
+        """
         self.num_agents = num_agents
         self.agents = agents
         self.replay_buffers = replay_buffers
