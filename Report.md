@@ -122,7 +122,7 @@ below. We optionally can use a 1D batch normalization layer for both the actor a
 
 ## 4 Future Work
 
-There are several ways to improve the current implementation, which are listed below:
+There are several ways to improve the current implementation, which are discussed below.
 
 
 ### Hyperparameter tuning
