@@ -21,6 +21,8 @@ position and velocity of the ball and racket. Each agent has two actions corresp
 to the horizontal movement towards and away from the net, and the vertical movement of jumping. Each agent receives a reward of 
  - +0.1 for hitting the ball over the net. 
  - -0.01 for letting the ball hit the ground or letting the ball out of bounds.
+
+
 We aim to train the agents to interact with the environment such that the expected return, i.e., 
 the (discounted) cumulative reward, is maximized. Thus, each agent's goal is to keep the ball in play.
 
