@@ -14,7 +14,7 @@ In this project, we train two agents to play tennis.
 
 **Observation Space**: For each agent, we observe 8 variables that are the position and velocity of the ball and racket.
 
-**Action Space**: For each agent, we have two continuous actions corresponding to the horizontal movement towards and away
+**Action Space**: For each agent, we have two actions corresponding to the horizontal movement towards and away
 from the net, and the vertical movement of jumping.
 
 **Duration**: The task is episodic.
@@ -92,7 +92,7 @@ The folder **rl_lib** contains the library that implements the agents and the al
 - [noise.py](rl_lib/noise.py): Implementation of Ornstein-Uhlenbeck process noise.
 - [model.py](rl_lib/model.py): Neural network models for the actor and critic.
 
-The jupyter notebook [Tennis.ipynb](Tennis.ipynb) shows how to train the agents using the DDPG algorithm.
+The jupyter notebook [Tennis.ipynb](Tennis.ipynb) shows how to train the agents using the MADDPG algorithm.
 
 ## References 
 
