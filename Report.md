@@ -33,6 +33,8 @@ are then averaged over the 100 episodes.
 
 ## 2 Method and Implementation Details
 
+### Method
+
 We are using the Multi-Agent Deep Deterministic Policy Gradient (MADDPG) method to train the agents, similar to [[1]](#1). The 
 method is an extension of the DDPG algorithm for environments with multiple agents. The algorithm belongs to the 
 actor-critic methods in reinforcement learning, in which a policy network outputs the optimal actions for a given state and
@@ -56,7 +58,7 @@ the target networks are fixed for $N$-steps and are then updated with the parame
 update.
 
 
-## 2 Implementation Details
+### Implementation Details
 
 Following steps are executed for each episode:
 
