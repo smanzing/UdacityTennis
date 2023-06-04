@@ -25,7 +25,7 @@ We aim to train the agents to interact with the environment such that the expect
 the (discounted) cumulative reward, is maximized. Thus, each agent's goal is to keep the ball in play.
 
 The task is episodic. The environment is solved, if the average maximum score of the agents is at least +0.5 over 100 
-consecutive episodes. This means that we sum the rewards of each agent after each episode. We then pick the maximum score, 
+consecutive episodes. This means that we sum the reward of each agent after each episode. We then pick the maximum score, 
 i.e., the accumulated reward of one agent. This procedure is repeated over 100 consecutive episodes and the resulting scores
 are then averaged over the 100 episodes.
 

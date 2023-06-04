@@ -20,7 +20,7 @@ from the net, and the vertical movement of jumping.
 **Duration**: The task is episodic.
 
 **Success Criteria**: The environment is solved, if the average maximum score of the agents is at least +0.5 over 100 
-consecutive episodes. This means that we sum the rewards of each agent after each episode. We then pick the maximum score, 
+consecutive episodes. This means that we sum the reward of each agent after each episode. We then pick the maximum score, 
 i.e., the accumulated reward of one agent. This procedure is repeated over 100 consecutive episodes and the resulting scores
 are then averaged over the 100 episodes.
 
