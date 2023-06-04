@@ -76,7 +76,7 @@ Following steps are executed for each episode:
 
 In the current implementation, the training seemed to be more stable when updating the target networks after each update
 of the local networks. The parameters for the networks, replay buffer, and the MADDP algorithm can be found in the tables
-below. We optionally can use a 1D batch normalization layer for both the actor and critic networks. 
+below. Inspired by [[3]](#3), we optionally can use a 1D batch normalization layer for both the actor and critic networks. 
 
 **Actor Network**:
 
@@ -164,3 +164,6 @@ Lowe, R. *et al.*
 Schaul, T. and Quan, J. and Antonoglou, I. and Silver, D.
 **Prioritized Experience Replay**
 *arXiv* **10.48550/ARXIV.1511.05952**, (2015).
+
+<a id="1">[3]</a>
+https://github.com/vivekthota16/Project-Collaboration-and-Competition-Udacity-Deep-Reinforcement-Learning/tree/master

@@ -102,6 +102,9 @@ The jupyter notebook [Tennis.ipynb](Tennis.ipynb) shows how to train the agents 
 The implementation is based on the research paper [[1]](#1) and the code provided by Udacity, see 
 [deep-reinforcement-learning](https://github.com/udacity/deep-reinforcement-learning#dependencies).
 
+Following repository served as inspiration for the implementation:
+- https://github.com/vivekthota16/Project-Collaboration-and-Competition-Udacity-Deep-Reinforcement-Learning/tree/master
+
 <a id="1">[1]</a> 
 Lowe, R. *et al.* 
 **Multi-Agent Actor-Critic for Mixed Cooperative-Competitive Environments.**
