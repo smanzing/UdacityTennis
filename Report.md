@@ -144,7 +144,7 @@ temporal difference error $\delta_i$:
 $$p_i = |\delta_i|+ E,$$ 
 
 with $E > 0$ to ensure that experiences can also be sampled in case $|\delta_i| = 0$. A greater temporal difference error 
-corresponds to a higher priority. The priority is used to compute the sampling probability for each experience when:
+corresponds to a higher priority. The priority is used to compute the sampling probability $P_i$ for each experience:
 
 $$P_i = \frac{p_i^a}{\sum_k p_k^a},$$
 
