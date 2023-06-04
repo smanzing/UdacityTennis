@@ -1,10 +1,10 @@
 # Collaboration and Competition
 
-[image1]: https://user-images.githubusercontent.com/10624937/42135623-e770e354-7d12-11e8-998d-29fc74429ca2.gif "Trained Agent
+[image1]: https://user-images.githubusercontent.com/10624937/42135623-e770e354-7d12-11e8-998d-29fc74429ca2.gif "Trained Agent"
 
 ## Project Details
 
-In this project, we two agents to play tennis. 
+In this project, we train two agents to play tennis. 
 
 ### Environment
 
