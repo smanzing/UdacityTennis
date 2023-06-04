@@ -127,8 +127,8 @@ There are several ways to improve the current implementation, which are discusse
 
 ### Hyperparameter tuning
 
-The current hyperparameter values have not been extensively tuned. To improve the performance of the algorithm, 
-tuning can be done as future work. In particular, following parameter changes can be further investigates:
+To improve the performance of the algorithm, hyperparameter tuning can be performed as future work. 
+In particular, following parameter changes can be further investigated:
 
 - the maximum number of time steps per episode can be lowered which may speed-up the training process 
 - the learning rate for the actor and critic networks can be increased 
